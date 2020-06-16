@@ -1,0 +1,10 @@
+C:\Users\grygr\Desktop\SendUDP\SendUDP\bin\Debug\SendUDP.exe.config
+C:\Users\grygr\Desktop\SendUDP\SendUDP\bin\Debug\SendUDP.exe
+C:\Users\grygr\Desktop\SendUDP\SendUDP\bin\Debug\SendUDP.pdb
+C:\Users\grygr\Desktop\SendUDP\SendUDP\obj\Debug\SendUDP.csprojAssemblyReference.cache
+C:\Users\grygr\Desktop\SendUDP\SendUDP\obj\Debug\SendUDP.Properties.Resources.resources
+C:\Users\grygr\Desktop\SendUDP\SendUDP\obj\Debug\SendUDP.csproj.GenerateResource.cache
+C:\Users\grygr\Desktop\SendUDP\SendUDP\obj\Debug\SendUDP.csproj.CoreCompileInputs.cache
+C:\Users\grygr\Desktop\SendUDP\SendUDP\obj\Debug\SendUDP.exe
+C:\Users\grygr\Desktop\SendUDP\SendUDP\obj\Debug\SendUDP.pdb
+C:\Users\grygr\Desktop\SendUDP\SendUDP\obj\Debug\SendUDP.frmSend.resources

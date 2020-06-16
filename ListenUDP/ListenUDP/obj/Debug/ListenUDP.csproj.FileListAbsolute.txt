@@ -1,0 +1,10 @@
+C:\Users\grygr\Desktop\ListenUDP\ListenUDP\obj\Debug\ListenUDP.csprojAssemblyReference.cache
+C:\Users\grygr\Desktop\ListenUDP\ListenUDP\obj\Debug\ListenUDP.frmUDPListener.resources
+C:\Users\grygr\Desktop\ListenUDP\ListenUDP\obj\Debug\ListenUDP.Properties.Resources.resources
+C:\Users\grygr\Desktop\ListenUDP\ListenUDP\obj\Debug\ListenUDP.csproj.GenerateResource.cache
+C:\Users\grygr\Desktop\ListenUDP\ListenUDP\obj\Debug\ListenUDP.csproj.CoreCompileInputs.cache
+C:\Users\grygr\Desktop\ListenUDP\ListenUDP\bin\Debug\ListenUDP.exe.config
+C:\Users\grygr\Desktop\ListenUDP\ListenUDP\bin\Debug\ListenUDP.exe
+C:\Users\grygr\Desktop\ListenUDP\ListenUDP\bin\Debug\ListenUDP.pdb
+C:\Users\grygr\Desktop\ListenUDP\ListenUDP\obj\Debug\ListenUDP.exe
+C:\Users\grygr\Desktop\ListenUDP\ListenUDP\obj\Debug\ListenUDP.pdb
