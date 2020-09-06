@@ -33,7 +33,8 @@ namespace SendUDP
 
         private void btnSend_Click(object sender, EventArgs e)
         {
-            SendUDP();
+            Thread t = new Thread(new ThreadStart(SendUDP));
+            t.Start();
         }
 
     }

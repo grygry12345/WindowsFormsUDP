@@ -20,22 +20,33 @@ namespace ListenUDP
         UdpClient listener = new UdpClient(listenPort);
         IPEndPoint groupEP = new IPEndPoint(IPAddress.Any, listenPort);
 
+
         public frmUDPListener()
         {
             InitializeComponent();
         }
-
+        
         private void frmUDPListener_FormClosing(object sender, FormClosingEventArgs e)
         {
             listener.Close();
         }
 
-        private void btnListen_Click(object sender, EventArgs e)
-        {
-            lblListener.Text = "...";
-            byte[] bytes = listener.Receive(ref groupEP);
+        private void listenUDP() {
+            while(true)
+            {
+                Invoke((MethodInvoker)delegate
+                {
+                    byte[] bytes = listener.Receive(ref groupEP);
+                    lblListener.Text = Encoding.ASCII.GetString(bytes, 0, bytes.Length);
+                });
+            }
+        }
 
-            lblListener.Text = Encoding.ASCII.GetString(bytes, 0, bytes.Length);
+        private void frmUDPListener_Load(object sender, EventArgs e)
+        {
+            lblListener.Text = "";
+            Thread t = new Thread(listenUDP);
+            t.Start();
         }
     }
 }
